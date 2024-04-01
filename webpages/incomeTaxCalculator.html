@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/incomeTaxCalculator.css">
+    <title>Income Tax Calculator</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="/index.html">Home Page</a></li> |
+                <li><a href="/webpages/salesTaxCalculator.html">Sales Tax Calculator</a></li> |
+                <li><a href="/webpages/changeCalculator.html">Change Calculator</a></li> |
+                <li><a href="/webpages/incomeTaxCalculator.html">Income tax Calculator</a></li> |
+                <li><a href="/webpages/reservationRequest.html">Reservation Request</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <!-- Form Section -->
+            <fieldset>
+                <!-- Title -->
+                <h1>Income Tax Calculator</h1>
+                <!-- Input for taxable income -->
+                <label for="incometax" id="incometax">Enter Taxable Income:</label>
+                <input type="text" name="taxableincome" id="taxableincome"> &nbsp;
+                <!-- Calculate and Clear buttons -->
+                <button type="submit" id="calculate">Calculate</button> 
+                <button type="clear" id="clear">Clear</button><br> <br>
+                <!-- Input for displaying income tax owed -->
+                <label for="taxowed" id="taxowed">Income Tax Owed:</label>
+                <input type="text" name="incometaxowed" id="incometaxowed" disabled> <br> <br>
+                <!-- Footer -->
+                <footer>&copy; Sameeha Shaik N01649346 ~ 2024</footer>
+            </fieldset>
+        </form>
+    </main>
+    <!-- JavaScript File -->
+    <script src="/js/incomeTaxCalculator.js"></script>
+</body>
+
+</html>

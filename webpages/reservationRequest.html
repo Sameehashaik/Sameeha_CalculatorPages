@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reservationRequest.css">
+    <title>Reservation Request</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="/index.html">Home Page</a></li> |
+                <li><a href="/webpages/salesTaxCalculator.html">Sales Tax Calculator</a></li> |
+                <li><a href="/webpages/changeCalculator.html">Change Calculator</a></li> |
+                <li><a href="/webpages/incomeTaxCalculator.html">Income tax Calculator</a></li> |
+                <li><a href="/webpages/reservationRequest.html">Reservation Request</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form">
+            <!-- Page Title -->
+            <h1>Reservation Request</h1>
+            <!-- General Information Section -->
+            <fieldset>
+                <legend><h3>General Information</h3></legend>
+                <!-- Arrival Date Input -->
+                <label for="arrivalDate" id="arrivalDate">Arrival Date:</label>
+                <input type="date" name="date" id="date"> <br> <br>
+                <!-- Nights Input -->
+                <label for="nights" id="nights">Nights:</label>
+                <input type="text" name="nightsno" id="nightsno">&nbsp;
+                <span>Must be Numeric.</span><br><br>
+                <!-- Adults Select -->
+                <label for="adults" id="adults">Adults:</label>
+                <select name="adultsno" id="adultsno">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>5+</option>
+                </select><br><br>
+                <!-- Children Select -->
+                <label for="children" id="children">Children:</label>
+                <select name="childrenno" id="childrenno">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>5+</option>
+                </select>
+            </fieldset>
+            <!-- Preferences Section -->
+            <fieldset>
+                <legend><h3>Preferences</h3></legend>
+                <!-- Room Type Radio Buttons -->
+                <label for="roomtype" id="roomtype">Room Type:</label>
+                <input type="radio" name="radio1" id="standard">
+                <label for="standard">Standard</label>
+                <input type="radio" name="radio1" id="business">
+                <label for="business">Business</label>
+                <input type="radio" name="radio1" id="suite">
+                <label for="suite">Suite</label><br><br>
+                <!-- Bed Type Radio Buttons -->
+                <label for="bedtype" id="bedtype">Bed Type:</label>
+                <input type="radio" name="radio2" id="king">
+                <label for="king">King</label>
+                <input type="radio" name="radio2" id="double">
+                <label for="double">Double</label><br><br>
+                <!-- Smoking Checkbox -->
+                <input type="checkbox" name="smoking" id="smoking">
+                <label for="smoking">Smoking</label>
+            </fieldset>
+            <!-- Contact Information Section -->
+            <fieldset>
+                <legend><h3>Contact Information</h3></legend>
+                <!-- Name Input -->
+                <label for="name" id="name">Name:</label>
+                <input type="text" id="flname"> <br> <br>
+                <!-- Email Input -->
+                <label for="email" id="email">Email:</label>
+                <input type="email" id="mail"> &nbsp;
+                <span>Must be a valid Email Address.</span><br> <br>
+                <!-- Phone Input -->
+                <label for="phone" id="phone">Phone:</label>
+                <input type="tel" name="phone" id="phoneno" placeholder="999-999-9999" required> &nbsp;
+                <span>This feild is required.</span>
+            </fieldset>
+            <br>
+            <!-- Submit Button -->
+            <button type="submit" id="submit">Submit Request</button> <br> <br>
+            <!-- Footer -->
+            <footer>&copy; Sameeha Shaik N01649346 ~ 2024</footer>
+        </form>
+    </main>
+</body>
+
+<!-- JavaScript File -->
+<script src="/js/reservationRequest.js"></script>
+
+</html>

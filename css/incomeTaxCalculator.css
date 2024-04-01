@@ -1,0 +1,80 @@
+/* Set background color and reset margins and padding */
+body {
+    background-color: rgb(240, 210, 210);
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+/* Reset margin-top for unordered lists */
+ul {
+    margin-top: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFDAB9;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+/* Navigation List Items */
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+/* Navigation Links */
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+/* Form Fieldset */
+fieldset {
+    background-color: bisque;
+    border: 5px solid rgb(219, 47, 219);
+    width: 40%; /* Set the width of the fieldset */
+    margin-left: 30%; /* Center horizontally */
+    margin-top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+}
+
+/* Heading */
+h1 {
+    margin-top: 0;
+    color: blue;
+}
+
+/* Form Labels */
+#incometax {
+    margin-top: 2%;
+    padding-left: 7%;
+}
+
+#taxowed {
+    margin-top: 2%;
+    padding-left: 13%;
+}
+
+/* Button */
+button {
+    background-color: palevioletred;
+    border: none;
+    margin-left: 2%;
+    height: 25px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    padding-top: 2%;
+}

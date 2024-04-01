@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/changeCalculator.css">
+    <title>Change Calculator</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="/index.html">Home Page</a></li> |
+                <li><a href="/webpages/salesTaxCalculator.html">Sales Tax Calculator</a></li> |
+                <li><a href="/webpages/changeCalculator.html">Change Calculator</a></li> |
+                <li><a href="/webpages/incomeTaxCalculator.html">Income tax Calculator</a></li> |
+                <li><a href="/webpages/reservationRequest.html">Reservation Request</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <!-- Form Section -->
+            <fieldset>
+                <!-- Heading -->
+                <h1>Change Calculator</h1>
+                <!-- Label and Input for Change Due -->
+                <label for="changedue" id="change">Enter Amount of Change Due (0-99):</label>&nbsp;
+                <input type="text" name="changedue" id="changedue">
+                <!-- Calculate Button -->
+                <button type="submit" id="calculate">Calculate</button>
+                <!-- Clear Button -->
+                <button type="reset" id="clear">Clear</button> <br> <br>
+                <!-- Labels and Inputs for Coin Counts -->
+                <label for="quarters" class="titles">Quarters:</label> &nbsp;
+                <input type="text" name="quarters" id="quarters" disabled><br><br>
+                <label for="dimes" class="titles">Dimes:</label>
+                <input type="text" name="dimes" id="dimes" disabled><br><br>
+                <label for="nickels" class="titles">Nickels:</label>
+                <input type="text" name="nickels" id="nickels" disabled><br><br>
+                <label for="pennies" class="titles">Pennies:</label>
+                <input type="text" name="pennies" id="pennies" disabled><br><br>
+                <!-- Footer -->
+                <footer>&copy; Sameeha Shaik N01649346 ~ 2024</footer>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+<!-- JavaScript File -->
+<script src="/js/changeCalculator.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/salesTaxCalculator.css">
+    <title>Sales Tax Calculator</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <!-- Navigation Links -->
+                <li><a href="/index.html">Home Page</a></li> |
+                <li><a href="/webpages/salesTaxCalculator.html">Sales Tax Calculator</a></li> |
+                <li><a href="/webpages/changeCalculator.html">Change Calculator</a></li> |
+                <li><a href="/webpages/incomeTaxCalculator.html">Income tax Calculator</a></li> |
+                <li><a href="/webpages/reservationRequest.html">Reservation Request</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <!-- Form Section -->
+            <fieldset>
+                <!-- Title -->
+                <h1>Sales Tax Calculator</h1>
+                <!-- Description -->
+                <p>Enter Subtotal and Tax Rate and click "Calculate".</p>
+                <!-- Subtotal Input Field -->
+                <label for="subtotal" class="titles">Subtotal:</label>
+                <input type="text" name="subtotal" id="subtotal"><br><br>
+                <!-- Tax Rate Input Field -->
+                <label for="taxrate" class="titles">Tax Rate:</label>
+                <input type="text" name="taxrate" id="taxrate"><br><br>
+                <!-- Sales Tax Input Field (Disabled) -->
+                <label for="salestax" class="titles">Sales Tax:</label>
+                <input type="text" name="salestax" id="salestax" disabled><br><br>
+                <!-- Total Input Field (Disabled) -->
+                <label for="total" class="titles">Total:</label>
+                <input type="text" name="total" id="total" disabled><br><br>
+                <!-- Calculate Button -->
+                <button type="submit" id="calculate">Calculate</button>
+                <!-- Clear Button -->
+                <button type="reset" id="clear">Clear</button><br><br>
+                <!-- Footer -->
+                <footer>&copy; Sameeha Shaik N01649346 ~ 2024</footer>
+            </fieldset>
+        </form>
+    </main>
+    <!-- JavaScript File -->
+    <script src="/js/salesTaxCalculator.js"></script>
+</body>
+
+</html>
